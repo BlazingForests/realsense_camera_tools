@@ -7,7 +7,13 @@ Those tools use for get realsense camera properties and RGB to depth UVmap data
 
 [realsense camera SDK](https://software.intel.com/en-us/intel-realsense-sdk/download)
 
+This was tested with with F200 Depth Camera Manager (DCM) v1.2 and Realsense SDK v4.0.0, although newer versions may also work.
 
+### Installation instructions
+
+1. Download [F200 Depth Camera Manager (DCM) v1.2](http://registrationcenter-download.intel.com/akdlm/irc_nas/5105/intel_rs_dcm_f200_1.2.14.24922.exe). Note that newer versions may also work.
+2. For the SDK, you'll need to register [here](https://registrationcenter.intel.com/en/forms/?productid=2383). After this you can install either the newest version of the SDK or v4.0.0 for which this was tested.
+3. You'll also need to compile the code. Easiest is to install Microsoft Visual Studio 2010 or similar. You can then open the file VC++ Project files.
 
 ## Run
 
