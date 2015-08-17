@@ -3,6 +3,24 @@ win tools for use realsense camera in ROS
 
 Those tools use for get realsense camera properties and RGB to depth UVmap data
 
+
+## Detail
+
+I used a stupid way to get camera info and register RGB image to depth image.
+
+The uvmap file like uv coordinate in 3D graphics.
+
+Each depth value at each xy coordinate in depth image have a diffent mapped xy coordinate in RGB image.
+
+The file name means the depth value (mm).
+
+#### Note
+
+The recommend depth value is 0~800(mm)
+
+You can change #define DEPTH_END 2047 (main.h) to your custom value. 2047 is the maximum depth value from camera properties.
+
+
 ## Dependencies
 
 [realsense camera SDK](https://software.intel.com/en-us/intel-realsense-sdk/download)
